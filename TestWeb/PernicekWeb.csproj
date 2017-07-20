@@ -38,8 +38,5 @@
     <ProjectReference Include="..\core\Alza.Core.Module\Alza.Core.Module.csproj" />
     <ProjectReference Include="..\modules\Alza.Module.Catalog\Alza.Module.Catalog.csproj" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\Manage\" />
-  </ItemGroup>
 
 </Project>
