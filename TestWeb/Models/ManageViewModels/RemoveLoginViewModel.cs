@@ -10,5 +10,7 @@ namespace Pernicek.Models.ManageViewModels
     {
         public string LoginProvider { get; set; }
         public string ProviderKey { get; set; }
+
+
     }
 }
