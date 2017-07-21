@@ -101,8 +101,9 @@ namespace Pernicek.Controllers
                     }
                     else
                     {
-
-                        var isExist = await _userManager.FindByEmailAsync(model.Email);
+                        ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                        //var isExist = await _userManager.FindByEmailAsync(model.Email);
+                        /*
                         if (isExist == null)
                         {
                             _logger.LogWarning(2, "someString");
@@ -113,7 +114,7 @@ namespace Pernicek.Controllers
                             _logger.LogWarning(2, "someString");
                             ModelState.AddModelError("Password", "someString");
                         }
-
+                        */
 
                         return View(model);
                     }
