@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Business\" />
+    <Folder Include="Sql\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\core\Alza.Core.Module\Alza.Core.Module.csproj" />
+  </ItemGroup>
+
+</Project>
